@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:layout_marginVertical="50dp"
+        android:text="LOG IN"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10px"
+        android:ems="10"
+        android:hint="Username"
+        android:shadowColor="#666"/>
+
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10px"
+        android:layout_marginVertical="100dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10px"
+        android:layout_marginVertical="0dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="LogIn"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="276dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10px"
+        android:layout_marginTop="50dp"
+        android:layout_marginVertical="0dp"
+        android:background="#d9d9d9"
+        android:text="Go back to main page"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+
+

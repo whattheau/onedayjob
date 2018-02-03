@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.final254.onedayjob_4present">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Profile_Payment"></activity>
+        <activity android:name=".My_Payment"></activity>
+        <activity android:name=".My_Profile"></activity>
+        <activity android:name=".My_Job_2"></activity>
+        <activity android:name=".My_Job_Finished"></activity>
+        <activity android:name=".My_Job_Approve"></activity>
+        <activity android:name=".My_Job"></activity>
+        <activity android:name=".Page_Menu"></activity>
+        <activity android:name=".Department_All_Food2_Detail2"></activity>
+        <activity android:name=".Show_Job_Detail"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Department_All"></activity>
+        <activity android:name=".Department_All_Food2"></activity>
+        <activity android:name=".QRCode"></activity>
+
+    </application>
+
+</manifest>

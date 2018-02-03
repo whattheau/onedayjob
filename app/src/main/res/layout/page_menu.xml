@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <!-- everything you already have -->
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="Welcome to"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Onedayjob"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="ID:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtMemberID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2px"
+                android:layout_weight="1"
+                android:text="ID"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Username:" />
+
+            <TextView
+                android:id="@+id/txtUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2px"
+                android:layout_weight="1"
+                android:text="Username"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <!-- everything you already have -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnNext1"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="12px"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:text="Home"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/my_job"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:text="My Job"
+                android:textColor="@android:color/background_light" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="12px"
+            android:backgroundTint="@android:color/background_light"
+            android:text="Logout"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
